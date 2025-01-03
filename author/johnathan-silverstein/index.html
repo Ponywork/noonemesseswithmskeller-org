@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Johnathan Silverstein - No One Messes With Ms Keller</title>
+
+<link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col sm:flex-row justify-between items-center py-4">
+                <div class="flex items-center justify-between w-full sm:w-auto sm:mb-0">
+                    <span class="font-bold text-base sm:text-xl text-black">No One Messes With Ms Keller</span>
+                    <button id="menu-toggle" class="sm:hidden">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div id="mobile-menu" class="hidden mt-4 sm:mt-0 sm:flex flex-col sm:flex-row w-full sm:w-auto items-center gap-2 sm:gap-4">
+                    <a href="#info" class="w-full sm:w-auto px-3 py-2 sm:py-1 text-sm sm:text-base bg-gray-100 hover:bg-gray-200 rounded-full text-center block mb-2 sm:mb-0">Basic Info</a>
+                    <a href="#watch" class="w-full sm:w-auto px-3 py-2 sm:py-1 text-sm sm:text-base bg-gray-100 hover:bg-gray-200 rounded-full text-center block mb-2 sm:mb-0">Watch Video</a>
+                    <a href="#characters" class="w-full sm:w-auto px-3 py-2 sm:py-1 text-sm sm:text-base bg-gray-100 hover:bg-gray-200 rounded-full text-center block mb-2 sm:mb-0">Characters</a>
+                    <a href="#reviews" class="w-full sm:w-auto px-3 py-2 sm:py-1 text-sm sm:text-base bg-gray-100 hover:bg-gray-200 rounded-full text-center block mb-2 sm:mb-0">Reviews</a>
+                    <a href="#faq" class="w-full sm:w-auto px-3 py-2 sm:py-1 text-sm sm:text-base bg-gray-100 hover:bg-gray-200 rounded-full text-center block mb-2 sm:mb-0">FAQ</a>
+                    <a href="#news" class="w-full sm:w-auto px-3 py-2 sm:py-1 text-sm sm:text-base bg-gray-100 hover:bg-gray-200 rounded-full text-center block mb-2 sm:mb-0">Latest News</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    <!-- Main Content -->
+    
+<div class="max-w-6xl mx-auto px-4 py-8">
+    
+<div class="mx-auto mb-2 w-full py-1 text-sm text-gray-600"><a href="/">Home</a> / Author</div>
+
+    <div class="mx-auto w-full max-w-[1025px]">
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-8 p-6 bg-white rounded-lg shadow-sm">
+            <div class="w-32 h-32 md:w-48 md:h-48 flex-shrink-0">
+                <img src="/media/user.png" alt="Johnathan Silverstein" class="w-full h-full object-cover rounded-full shadow-md">
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+                <h1 class="text-2xl md:text-3xl font-bold mb-4">
+                    <a href="/author/johnathan-silverstein/" class="hover:text-orange-500 transition-colors">
+                        Johnathan Silverstein
+                    </a>
+                </h1>
+                <p class="text-gray-600 text-base md:text-lg leading-relaxed max-w-2xl text-center md:text-left">
+                    <p>Johnathan Silverstein, a highly esteemed film critic in the European and American film criticism circles, is renowned for his profound film analysis and unique insights. His works are frequently published in major mainstream media and professional film magazines, earning the respect of readers and peers alike. A graduate of New York University's film studies program, Silverstein has over two decades of experience in film criticism, covering not only the artistic aspects of cinema but also its sociocultural impact and industry dynamics.</p><p>With his keen insight and deep understanding of film production, Silverstein is able to dissect films from various perspectives, offering comprehensive and profound evaluations of narrative films, documentaries, and experimental films alike. His film reviews focus not only on the performance of directors and actors but also on elements such as narrative structure, visual style, and musical scoring, providing audiences with a holistic perspective on film appreciation.</p><p>In addition to writing film reviews, Silverstein is also a film educator, serving as a guest lecturer at several universities to share his passion for and expertise in the art of cinema. His book, "Between Light and Shadow: An Exploration of Film Art," is widely used as a textbook in film studies courses and is highly regarded by students and educators.</p><p>Johnathan Silverstein, in his capacity as a professional film critic, provides a window for film enthusiasts to gain a deeper understanding of cinema, and his work continually propels the development of film art and public appreciation of cinema.</p><p><br></p>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 sm:py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <div class="text-center sm:text-left">
+                    <h4 class="font-bold text-base sm:text-lg mb-3 sm:mb-4">About Us</h4>
+                    <p class="text-gray-300 text-sm sm:text-base">"Ms Keller" is an urban short drama filled with warmth and strength, telling the story of an unyielding woman's journey.</p>
+                </div>
+                <div class="text-center sm:text-left">
+                    <h4 class="font-bold text-base sm:text-lg mb-3 sm:mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm sm:text-base">Episode List</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm sm:text-base">Latest News</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm sm:text-base">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="text-center sm:text-left">
+                    <h4 class="font-bold text-base sm:text-lg mb-3 sm:mb-4">Follow Us</h4>
+                    <div class="flex justify-center sm:justify-start space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white text-sm sm:text-base">Weibo</a>
+                        <a href="#" class="text-gray-300 hover:text-white text-sm sm:text-base">WeChat</a>
+                        <a href="#" class="text-gray-300 hover:text-white text-sm sm:text-base">TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
+                <p class="text-gray-300 text-sm sm:text-base">© 2024 No One Messes With Ms Keller. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
